@@ -138,5 +138,33 @@
         "model_folder": "P8-Pro",
         "size_kb": 122.12,
         "extension": ".bin"
+    },
+    {
+        "path": "ZTE/BLADE Axx [ A110-A515 ]/MTK_AllInOne_DA.df31f2b0.bin",
+        "filename": "MTK_AllInOne_DA.df31f2b0.bin",
+        "model_folder": "BLADE Axx [ A110-A515 ]",
+        "size_kb": 5490.59,
+        "extension": ".bin"
+    },
+    {
+        "path": "ZTE/BLADE V [ Vxxx ]/ZTE.BLADE Axx [ A110-A515 ].link",
+        "filename": "ZTE.BLADE Axx [ A110-A515 ].link",
+        "model_folder": "BLADE V [ Vxxx ]",
+        "size_kb": 0.0,
+        "extension": ".link"
+    },
+    {
+        "path": "ZTE/Blade_A520_V6_T660/moto.xt1760.link",
+        "filename": "moto.xt1760.link",
+        "model_folder": "Blade_A520_V6_T660",
+        "size_kb": 0.0,
+        "extension": ".link"
+    },
+    {
+        "path": "ZTE/Blade_A601_A610_A610c/MTK_AllInOne_DA_1515.5d1dec16.bin",
+        "filename": "MTK_AllInOne_DA_1515.5d1dec16.bin",
+        "model_folder": "Blade_A601_A610_A610c",
+        "size_kb": 4586.24,
+        "extension": ".bin"
     }
 ]

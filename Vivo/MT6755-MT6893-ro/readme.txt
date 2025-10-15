@@ -1,0 +1,4 @@
+MTK_AllInOne_DA_BR_sig.2020-12-09.6677b6ce
+Preloader mode without TP. Features may be limited to [readonly]
+MT6755, MT6761, MT6765, MT6763, MT6771, MT6779, MT6768, MT6885, MT6853, MT6785, MT6873, MT6833, MT6893
+Y33S, Y53S, Y30g, Y19, Y5s, V17-Neo, S1-P65, Y7s

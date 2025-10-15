@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+	<general>
+		<chip-name>MT6765</chip-name>
+		<storage-type>EMMC</storage-type>
+		<download-agent>
+			MTK_AllInOne_DA.bin
+		</download-agent>
+		<scatter>
+			MT6765_Android_scatter.txt
+		</scatter>
+		<rom-list>
+			<rom index="0" enable="true">
+				preloader_oppo6765_19581.bin
+			</rom>
+		</rom-list>
+		<connection
+				type="BromUSB"
+				high-speed="false"
+				without-battery="false" />
+	</general>
+	<commands>
+		<efuse>
+			<common-ctrl
+			        Disable_NAND_boot_speedup="false"
+		   			Disable_UFS_boot="false"			
+					USB_download_type="0"
+					Disable_NAND_boot="false"
+					Disable_EMMC_boot="false"/>
+
+			<secure-ctrl
+					Disable_DBGPORT_LOCK="false"
+					Enable_SW_JTAG_CON="false"
+					Enable_ACC="false"
+					Enable_ACK="false"
+					Enable_SLA="false"
+					Enable_DAA="true"
+					Enable_SBC="true"
+					Disable_JTAG="false"/>
+
+			<sbc-pub-key>
+				<key-type>pss</key-type>
+				<pub-key-e>010001</pub-key-e>
+				<pub-key-n>
+                   DD7303E93911801EA1914A182AE6B247D706B7B46ADA0EC73D083D570A932881A9158BB344E65558822B1612A5740BEE6EED31A2DBBD937DA0710E4535342BD19801F0A5F2AF5C807071F9AFA644025D16ACB89D7093437631DC61668DB23BCA8598939E0D96D25C3A426CEC3510E6A2D47779D6C10CD42D0CC74480F52AC193767AC67A29B1B30358EF82015A523FFFFAC399019DD9704A89B0C6E460E18553292537DFF32932A9A35F473E395B5475ECC5151FE4D3B92CC3C753955A9389F0713E11A5F8F702FD6FF3E5D72AF1A25D98DD9AC4C8D65CEEF604387ADDFE59B0926417B18CC8F355123627CCAD7517E132000C815DD4F129EBD4FD007FA0C177
+				</pub-key-n>
+			</sbc-pub-key>
+
+			<common-lock
+					com_ctrl_lock="false"
+					usb_id_lock="false"/>
+
+			<secure-lock
+					custk_lock = "false"
+					sec_msc_lock = "false"
+					sec_attr_lock="false"
+					ackey_lock="false"
+					sbc_pubk_hash_lock="false"/>
+
+			<usb-id vid="0000" pid="0000"/> 
+
+			<sec_msc
+					md1_sbc_en="false"
+					c2k_sbc_en="false" />
+
+			<c_lock
+					c_data5_lock="false"
+					c_data4_lock="false"
+					c_data3_lock="false"
+					c_data2_lock="false"
+					c_data1_lock="false"
+					c_data0_lock="false"
+					c_ctrl1_lock="false" 
+					c_ctrl0_lock="false"
+					c_ctrlm_lock="false"/>
+
+
+		   <!--<c_ctrl0>bbb</c_ctrl0>
+			<c_ctrl1>3bbb</c_ctrl1>
+
+			<c_data0>dddddddd</c_data0>
+			<c_data1>bbbbbbbb</c_data1> 
+			<c_data2>ffffffff</c_data2>
+			<c_data3>eeeeeeee</c_data3>
+			<c_data4>aaaaaaaa</c_data4>
+			<c_data5>ffffffff</c_data5>--> 
+
+			<!--<ac-key>112233445566778899AABBCCDDEEFFFF</ac-key> -->
+
+			<!--<custk>1122334455667788AABBCCDDEEFFFFFF</custk> -->
+
+			<cm_flag Enable_kcust="false"/>
+
+			<run_time_blowing_config
+					bypass_c_ctrl0="false"
+					bypass_c_ctrl1="false"
+
+					bypass_c_data0="false"
+					bypass_c_data1="false"
+					bypass_c_data2="false"
+					bypass_c_data3="false"
+					bypass_c_data4="false"
+					bypass_c_data5="false"/>
+
+			<read-back
+					dir="."
+					name="efuse_dump.txt"
+					time-prefix="false"/>
+		</efuse>
+	</commands>
+</flashtool-config>

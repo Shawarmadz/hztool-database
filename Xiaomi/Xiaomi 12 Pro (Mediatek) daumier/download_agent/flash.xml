@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flash-mode>
+    <project>daumier</project>
+    <dagent>DA_BR.bin</dagent>
+    <scatter>../MT6983_Android_scatter.xml</scatter>
+    <build_version>alps-mp-s0.mp1.tc8sp2-mt6983-V1.0.1_P351</build_version>
+    <build_time>2022-06-29 00:34:16</build_time>
+    <version>1.0</version>
+    <contact>Huihui.Wang</contact>
+</flash-mode>

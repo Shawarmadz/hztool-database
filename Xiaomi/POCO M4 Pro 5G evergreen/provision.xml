@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--如果没有此文件，就不做任何检查，也不做provision，直接进行后续操作。 -->
+<!--如果有此文件，就必须做检查并且必须进行provision。 -->
+<!--strictly_ctrl如果为0，那么不在下面列举的料号，就使用普通的provision，不做WBprovision和HPBprovision。 -->
+<!--strictly_ctrl如果为1，那么不在下面列举的料号，provision就需要强制提示错误，提示未找到provision配置参数.WB如果为0就代表不进行WB的provision，HPB相关参数为0就不进行HPB provision -->
+<!--density_in_GB只是为了增加本文件的可读性，不是用于工具判断的.wb_typ和wb_reduction_mode目前MTK不支持配置，直接忽略.desc也只是为了注释，忽略即可. -->
+<!--xml version1->2 :增加HPB的相关描述。 -->
+
+<data>
+    <start strictly_ctrl="1" />
+	<ufs vendor="SKhynix" partnumber="H9HQ15AECMBDAR" density_in_GB="128" wb_size_in_MB="12288" wb_type="" wb_reduction_mode="" hpb_total_range_in_MB="32768" hpb_pinned_region_start="0" hpb_pinned_region_count="0" desc="" />
+	<ufs vendor="SKhynix" partnumber="H9HQ15AFAMBDAR" density_in_GB="128" wb_size_in_MB="12288" wb_type="" wb_reduction_mode="" hpb_total_range_in_MB="32768" hpb_pinned_region_start="0" hpb_pinned_region_count="0" desc="" />
+	<ufs vendor="MICRON" partnumber="MT128GASAO4U21" density_in_GB="128" wb_size_in_MB="12288" wb_type="" wb_reduction_mode="" hpb_total_range_in_MB="32768" hpb_pinned_region_start="0" hpb_pinned_region_count="0" desc="" />
+	<ufs vendor="MICRON" partnumber="MT064GASAO2U21" density_in_GB="64" wb_size_in_MB="6144" wb_type="" wb_reduction_mode="" hpb_total_range_in_MB="32768" hpb_pinned_region_start="0" hpb_pinned_region_count="0" desc="" />
+  	<ufs vendor="SAMSUNG" partnumber="KM5P8001DM-B424" density_in_GB="64" wb_size_in_MB="6144" wb_type="" wb_reduction_mode="" hpb_total_range_in_MB="32768" hpb_pinned_region_start="0" hpb_pinned_region_count="0" desc="" />
+	<ufs vendor="SKhynix" partnumber="H9HQ21AFAMADAR" density_in_GB="256" wb_size_in_MB="24576" wb_type="" wb_reduction_mode="" hpb_total_range_in_MB="32768" hpb_pinned_region_start="0" hpb_pinned_region_count="0" desc="" />
+	<ufs vendor="SKhynix" partnumber="H9HQ15AECMADAR" density_in_GB="128" wb_size_in_MB="12288" wb_type="" wb_reduction_mode="" hpb_total_range_in_MB="32768" hpb_pinned_region_start="0" hpb_pinned_region_count="0" desc="" />
+	<ufs vendor="SAMSUNG" partnumber="KM5L9001DM-B424" density_in_GB="128" wb_size_in_MB="12288" wb_type="" wb_reduction_mode="" hpb_total_range_in_MB="32768" hpb_pinned_region_start="0" hpb_pinned_region_count="0" desc="" />
+	<ufs vendor="SKhynix" partnumber="H9HQ54AECMMDAR" density_in_GB="64" wb_size_in_MB="6144" wb_type="" wb_reduction_mode="" hpb_total_range_in_MB="32768" hpb_pinned_region_start="0" hpb_pinned_region_count="0" desc="" />
+	<ufs vendor="SAMSUNG" partnumber="KM5P9001DM-B424" density_in_GB="64" wb_size_in_MB="6144" wb_type="" wb_reduction_mode="" hpb_total_range_in_MB="32768" hpb_pinned_region_start="0" hpb_pinned_region_count="0" desc="" />
+	<ufs vendor="MICRON" partnumber="MT128GAXAU2U227X" density_in_GB="128" wb_size_in_MB="12288" wb_type="" wb_reduction_mode="" hpb_total_range_in_MB="32768" hpb_pinned_region_start="0" hpb_pinned_region_count="0" desc="" />
+</data>

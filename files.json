@@ -1,0 +1,100 @@
+[
+    {
+        "path": "Acer/A3_A40/DA_SWSEC_A10H.d46d45ec.bin",
+        "filename": "DA_SWSEC_A10H.d46d45ec.bin",
+        "model_folder": "A3_A40",
+        "size_kb": 4266.85,
+        "extension": ".bin"
+    },
+    {
+        "path": "Acer/A3_A40/preloader_neostra8163_tb_m.bin",
+        "filename": "preloader_neostra8163_tb_m.bin",
+        "model_folder": "A3_A40",
+        "size_kb": 151.47,
+        "extension": ".bin"
+    },
+    {
+        "path": "Acer/B1_A71/MTK_AllInOne_DA.9ab5efd7.bin",
+        "filename": "MTK_AllInOne_DA.9ab5efd7.bin",
+        "model_folder": "B1_A71",
+        "size_kb": 397.58,
+        "extension": ".bin"
+    },
+    {
+        "path": "Acer/B3_A20_A30/DA_SWSEC_A10H.d46d45ec.bin",
+        "filename": "DA_SWSEC_A10H.d46d45ec.bin",
+        "model_folder": "B3_A20_A30",
+        "size_kb": 4266.85,
+        "extension": ".bin"
+    },
+    {
+        "path": "Acer/MT8167_SEC/DA_SWSEC_A10L2.668411d6.bin",
+        "filename": "DA_SWSEC_A10L2.668411d6.bin",
+        "model_folder": "MT8167_SEC",
+        "size_kb": 211.55,
+        "extension": ".bin"
+    },
+    {
+        "path": "Acer/One-10/DA_SWSEC_A10L2.668411d6.bin",
+        "filename": "DA_SWSEC_A10L2.668411d6.bin",
+        "model_folder": "One-10",
+        "size_kb": 370.0,
+        "extension": ".bin"
+    },
+    {
+        "path": "Acer/One-7/0_base.base_v2112.link",
+        "filename": "0_base.base_v2112.link",
+        "model_folder": "One-7",
+        "size_kb": 0.0,
+        "extension": ".link"
+    },
+    {
+        "path": "Acer/One-8/0_base.base_v2112.link",
+        "filename": "0_base.base_v2112.link",
+        "model_folder": "One-8",
+        "size_kb": 0.0,
+        "extension": ".link"
+    },
+    {
+        "path": "Acer/T06/0_base.base_v2112.link",
+        "filename": "0_base.base_v2112.link",
+        "model_folder": "T06",
+        "size_kb": 0.0,
+        "extension": ".link"
+    },
+    {
+        "path": "Acer/Z500/DA_SWSEC_1416.a1bcb582.bin",
+        "filename": "DA_SWSEC_1416.a1bcb582.bin",
+        "model_folder": "Z500",
+        "size_kb": 2175.49,
+        "extension": ".bin"
+    },
+    {
+        "path": "Acer/z200/0_base.base_v2012.link",
+        "filename": "0_base.base_v2012.link",
+        "model_folder": "z200",
+        "size_kb": 0.0,
+        "extension": ".link"
+    },
+    {
+        "path": "Acer/z520/0_base.base_v1844.link",
+        "filename": "0_base.base_v1844.link",
+        "model_folder": "z520",
+        "size_kb": 0.0,
+        "extension": ".link"
+    },
+    {
+        "path": "Advan/A8/DA_PL.e37a6ea5.bin",
+        "filename": "DA_PL.e37a6ea5.bin",
+        "model_folder": "A8",
+        "size_kb": 230.63,
+        "extension": ".bin"
+    },
+    {
+        "path": "Advan/A8/preloader_sv5.bin",
+        "filename": "preloader_sv5.bin",
+        "model_folder": "A8",
+        "size_kb": 158.89,
+        "extension": ".bin"
+    }
+]

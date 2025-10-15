@@ -1,171 +1,96 @@
-
 [
-    {
-        "path": "Acer/A3_A40/DA_SWSEC_A10H.d46d45ec.bin",
-        "filename": "DA_SWSEC_A10H.d46d45ec.bin",
-        "model_folder": "A3_A40",
-        "size_kb": 4266.85,
-        "extension": ".bin"
-    },
-    {
-        "path": "Acer/A3_A40/preloader_neostra8163_tb_m.bin",
-        "filename": "preloader_neostra8163_tb_m.bin",
-        "model_folder": "A3_A40",
-        "size_kb": 151.47,
-        "extension": ".bin"
-    },
-    {
-        "path": "Acer/B1_A71/MTK_AllInOne_DA.9ab5efd7.bin",
-        "filename": "MTK_AllInOne_DA.9ab5efd7.bin",
-        "model_folder": "B1_A71",
-        "size_kb": 397.58,
-        "extension": ".bin"
-    },
-    {
-        "path": "Acer/B3_A20_A30/DA_SWSEC_A10H.d46d45ec.bin",
-        "filename": "DA_SWSEC_A10H.d46d45ec.bin",
-        "model_folder": "B3_A20_A30",
-        "size_kb": 4266.85,
-        "extension": ".bin"
-    },
-    {
-        "path": "Acer/MT8167_SEC/DA_SWSEC_A10L2.668411d6.bin",
-        "filename": "DA_SWSEC_A10L2.668411d6.bin",
-        "model_folder": "MT8167_SEC",
-        "size_kb": 211.55,
-        "extension": ".bin"
-    },
-    {
-        "path": "Acer/One-10/DA_SWSEC_A10L2.668411d6.bin",
-        "filename": "DA_SWSEC_A10L2.668411d6.bin",
-        "model_folder": "One-10",
-        "size_kb": 370.0,
-        "extension": ".bin"
-    },
-    {
-        "path": "Acer/One-7/0_base.base_v2112.link",
-        "filename": "0_base.base_v2112.link",
-        "model_folder": "One-7",
-        "size_kb": 0.0,
-        "extension": ".link"
-    },
-    {
-        "path": "Acer/One-8/0_base.base_v2112.link",
-        "filename": "0_base.base_v2112.link",
-        "model_folder": "One-8",
-        "size_kb": 0.0,
-        "extension": ".link"
-    },
-    {
-        "path": "Acer/T06/0_base.base_v2112.link",
-        "filename": "0_base.base_v2112.link",
-        "model_folder": "T06",
-        "size_kb": 0.0,
-        "extension": ".link"
-    },
-    {
-        "path": "Acer/Z500/DA_SWSEC_1416.a1bcb582.bin",
-        "filename": "DA_SWSEC_1416.a1bcb582.bin",
-        "model_folder": "Z500",
-        "size_kb": 2175.49,
-        "extension": ".bin"
-    },
-    {
-        "path": "Acer/z200/0_base.base_v2012.link",
-        "filename": "0_base.base_v2012.link",
-        "model_folder": "z200",
-        "size_kb": 0.0,
-        "extension": ".link"
-    },
-    {
-        "path": "Acer/z520/0_base.base_v1844.link",
-        "filename": "0_base.base_v1844.link",
-        "model_folder": "z520",
-        "size_kb": 0.0,
-        "extension": ".link"
-    },
-    {
-        "path": "Advan/A8/DA_PL.e37a6ea5.bin",
-        "filename": "DA_PL.e37a6ea5.bin",
-        "model_folder": "A8",
-        "size_kb": 230.63,
-        "extension": ".bin"
-    },
-    {
-        "path": "Advan/A8/preloader_sv5.bin",
-        "filename": "preloader_sv5.bin",
-        "model_folder": "A8",
-        "size_kb": 158.89,
-        "extension": ".bin"
-    },
-    {
-        "path": "Condor/Condor-M3-Lite-SP-626/auth_sv5_Ex.auth",
-        "filename": "auth_sv5_Ex.auth",
-        "model_folder": "Condor-M3-Lite-SP-626",
-        "size_kb": 2.2,
-        "extension": ".auth"
-    },
-    {
-        "path": "Condor/Condor-M3-Lite-SP-626/mtk_allinone_da.75adc7de.bin",
-        "filename": "mtk_allinone_da.75adc7de.bin",
-        "model_folder": "Condor-M3-Lite-SP-626",
-        "size_kb": 3160.71,
-        "extension": ".bin"
-    },
-    {
-        "path": "Condor/Condor-M3-Lite-SP-626/preloader_k62v1_64_bsp.bin",
-        "filename": "preloader_k62v1_64_bsp.bin",
-        "model_folder": "Condor-M3-Lite-SP-626",
-        "size_kb": 235.77,
-        "extension": ".bin"
-    },
-    {
-        "path": "Condor/P8-Pro/MTK_AllInOne_DA.fe6ee898.bin",
-        "filename": "MTK_AllInOne_DA.fe6ee898.bin",
-        "model_folder": "P8-Pro",
-        "size_kb": 8842.54,
-        "extension": ".bin"
-    },
-    {
-        "path": "Condor/P8-Pro/auth_sv5.auth",
-        "filename": "auth_sv5.auth",
-        "model_folder": "P8-Pro",
-        "size_kb": 2.2,
-        "extension": ".auth"
-    },
-    {
-        "path": "Condor/P8-Pro/preloader_P8_Pro.bin",
-        "filename": "preloader_P8_Pro.bin",
-        "model_folder": "P8-Pro",
-        "size_kb": 122.12,
-        "extension": ".bin"
-    },
-    {
-        "path": "ZTE/BLADE Axx [ A110-A515 ]/MTK_AllInOne_DA.df31f2b0.bin",
-        "filename": "MTK_AllInOne_DA.df31f2b0.bin",
-        "model_folder": "BLADE Axx [ A110-A515 ]",
-        "size_kb": 5490.59,
-        "extension": ".bin"
-    },
-    {
-        "path": "ZTE/BLADE V [ Vxxx ]/ZTE.BLADE Axx [ A110-A515 ].link",
-        "filename": "ZTE.BLADE Axx [ A110-A515 ].link",
-        "model_folder": "BLADE V [ Vxxx ]",
-        "size_kb": 0.0,
-        "extension": ".link"
-    },
-    {
-        "path": "ZTE/Blade_A520_V6_T660/moto.xt1760.link",
-        "filename": "moto.xt1760.link",
-        "model_folder": "Blade_A520_V6_T660",
-        "size_kb": 0.0,
-        "extension": ".link"
-    },
-    {
-        "path": "ZTE/Blade_A601_A610_A610c/MTK_AllInOne_DA_1515.5d1dec16.bin",
-        "filename": "MTK_AllInOne_DA_1515.5d1dec16.bin",
-        "model_folder": "Blade_A601_A610_A610c",
-        "size_kb": 4586.24,
-        "extension": ".bin"
+  {
+    "model_name": "Acer A3-A40",
+    "identifiers": ["A3_A40"],
+    "processor": "Unknown",
+    "files": {
+      "da_file": "Acer/A3_A40/DA_SWSEC_A10H.d46d45ec.bin",
+      "preloader": "Acer/A3_A40/preloader_neostra8163_tb_m.bin"
     }
+  },
+  {
+    "model_name": "Acer B1-A71",
+    "identifiers": ["B1_A71"],
+    "processor": "Unknown",
+    "files": {
+      "da_file": "Acer/B1_A71/MTK_AllInOne_DA.9ab5efd7.bin"
+    }
+  },
+  {
+    "model_name": "Acer B3-A20/A30",
+    "identifiers": ["B3_A20_A30"],
+    "processor": "Unknown",
+    "files": {
+      "da_file": "Acer/B3_A20_A30/DA_SWSEC_A10H.d46d45ec.bin"
+    }
+  },
+  {
+    "model_name": "Acer MT8167 SEC",
+    "identifiers": ["MT8167_SEC"],
+    "processor": "MT8167",
+    "files": {
+      "da_file": "Acer/MT8167_SEC/DA_SWSEC_A10L2.668411d6.bin"
+    }
+  },
+  {
+    "model_name": "Acer One-10",
+    "identifiers": ["One-10"],
+    "processor": "Unknown",
+    "files": {
+      "da_file": "Acer/One-10/DA_SWSEC_A10L2.668411d6.bin"
+    }
+  },
+  {
+    "model_name": "Acer Z500",
+    "identifiers": ["Z500"],
+    "processor": "Unknown",
+    "files": {
+      "da_file": "Acer/Z500/DA_SWSEC_1416.a1bcb582.bin"
+    }
+  },
+  {
+    "model_name": "Advan A8",
+    "identifiers": ["A8"],
+    "processor": "Unknown",
+    "files": {
+      "da_file": "Advan/A8/DA_PL.e37a6ea5.bin",
+      "preloader": "Advan/A8/preloader_sv5.bin"
+    }
+  },
+  {
+    "model_name": "Condor M3 Lite",
+    "identifiers": ["Condor-M3-Lite-SP-626"],
+    "processor": "MT6761",
+    "files": {
+      "auth_file": "Condor/Condor-M3-Lite-SP-626/auth_sv5_Ex.auth",
+      "da_file": "Condor/Condor-M3-Lite-SP-626/mtk_allinone_da.75adc7de.bin",
+      "preloader": "Condor/Condor-M3-Lite-SP-626/preloader_k62v1_64_bsp.bin"
+    }
+  },
+  {
+    "model_name": "Condor P8 Pro",
+    "identifiers": ["P8-Pro"],
+    "processor": "Unknown",
+    "files": {
+      "da_file": "Condor/P8-Pro/MTK_AllInOne_DA.fe6ee898.bin",
+      "auth_file": "Condor/P8-Pro/auth_sv5.auth",
+      "preloader": "Condor/P8-Pro/preloader_P8_Pro.bin"
+    }
+  },
+  {
+    "model_name": "ZTE BLADE Axx Series",
+    "identifiers": ["BLADE Axx [ A110-A515 ]"],
+    "processor": "Unknown",
+    "files": {
+      "da_file": "ZTE/BLADE Axx [ A110-A515 ]/MTK_AllInOne_DA.df31f2b0.bin"
+    }
+  },
+  {
+    "model_name": "ZTE Blade A601/A610/A610c",
+    "identifiers": ["Blade_A601_A610_A610c"],
+    "processor": "Unknown",
+    "files": {
+      "da_file": "ZTE/Blade_A601_A610_A610c/MTK_AllInOne_DA_1515.5d1dec16.bin"
+    }
+  }
 ]

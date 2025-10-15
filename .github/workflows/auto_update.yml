@@ -1,0 +1,41 @@
+# اسم الـ Action الذي سيظهر في تبويب Actions على GitHub
+name: Update files.json automatically
+
+# متى سيتم تشغيل هذا الـ Action؟
+on:
+  # 1. عند أي عملية push على الفرع الرئيسي (main)
+  push:
+    branches: [ "main" ]
+  # 2. يسمح لك بتشغيله يدويًا من تبويب Actions
+  workflow_dispatch:
+
+# ما هي المهام التي سيتم تنفيذها؟
+jobs:
+  update-json-job:
+    # سيتم تشغيل المهمة على خادم افتراضي يعمل بنظام Ubuntu
+    runs-on: ubuntu-latest
+
+    steps:
+      # الخطوة 1: تنزيل نسخة من كود المستودع على الخادم
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+
+      # الخطوة 2: إعداد بيئة عمل Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      # الخطوة 3: تشغيل سكريبت Python الخاص بك
+      - name: Run the update script
+        run: python update_files.py
+
+      # الخطوة 4: عمل Commit و Push لملف files.json المحدّث
+      - name: Commit and push if files.json changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: Auto-update files.json"
+          file_pattern: files.json
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "actions@github.com"
+          commit_author: "GitHub Actions Bot <actions@github.com>"

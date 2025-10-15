@@ -96,5 +96,47 @@
         "model_folder": "A8",
         "size_kb": 158.89,
         "extension": ".bin"
+    },
+    {
+        "path": "Condor/Condor-M3-Lite-SP-626/auth_sv5_Ex.auth",
+        "filename": "auth_sv5_Ex.auth",
+        "model_folder": "Condor-M3-Lite-SP-626",
+        "size_kb": 2.2,
+        "extension": ".auth"
+    },
+    {
+        "path": "Condor/Condor-M3-Lite-SP-626/mtk_allinone_da.75adc7de.bin",
+        "filename": "mtk_allinone_da.75adc7de.bin",
+        "model_folder": "Condor-M3-Lite-SP-626",
+        "size_kb": 3160.71,
+        "extension": ".bin"
+    },
+    {
+        "path": "Condor/Condor-M3-Lite-SP-626/preloader_k62v1_64_bsp.bin",
+        "filename": "preloader_k62v1_64_bsp.bin",
+        "model_folder": "Condor-M3-Lite-SP-626",
+        "size_kb": 235.77,
+        "extension": ".bin"
+    },
+    {
+        "path": "Condor/P8-Pro/MTK_AllInOne_DA.fe6ee898.bin",
+        "filename": "MTK_AllInOne_DA.fe6ee898.bin",
+        "model_folder": "P8-Pro",
+        "size_kb": 8842.54,
+        "extension": ".bin"
+    },
+    {
+        "path": "Condor/P8-Pro/auth_sv5.auth",
+        "filename": "auth_sv5.auth",
+        "model_folder": "P8-Pro",
+        "size_kb": 2.2,
+        "extension": ".auth"
+    },
+    {
+        "path": "Condor/P8-Pro/preloader_P8_Pro.bin",
+        "filename": "preloader_P8_Pro.bin",
+        "model_folder": "P8-Pro",
+        "size_kb": 122.12,
+        "extension": ".bin"
     }
 ]

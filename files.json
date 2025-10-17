@@ -7154,6 +7154,13 @@
         "extension": ".auth"
     },
     {
+        "path": "Oppo/OPPOA18 CPH2577/preloader_k69v1_64_k510.bin",
+        "filename": "preloader_k69v1_64_k510.bin",
+        "model_folder": "OPPOA18 CPH2577",
+        "size_kb": 342.17,
+        "extension": ".bin"
+    },
+    {
         "path": "Oppo/Oppo A15 Scatter & Da File/Oppo A15 Scatter & Da File/DA File/All in One Oppo & Realme.bin",
         "filename": "All in One Oppo & Realme.bin",
         "model_folder": "DA File",
